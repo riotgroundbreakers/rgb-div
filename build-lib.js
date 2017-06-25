@@ -36,7 +36,12 @@ var config = {
       commonjs: 'react',
       amd: 'react'
     },
-    'styled-components': 'styled-components'
+    'styled-components': {
+      root: 'styled',
+      commonjs2: 'styled-components',
+      commonjs: 'styled-components',
+      amd: 'styled-components'
+    },
   },
 };
 
