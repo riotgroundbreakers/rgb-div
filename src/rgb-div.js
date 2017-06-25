@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 class Div extends Component {
   static propTypes = {
     css: PropTypes.string,
-    children: PropTypes.children
+    children: PropTypes.any
   };
 
   static defaultProps = {
