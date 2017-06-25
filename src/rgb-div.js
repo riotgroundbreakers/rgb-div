@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 class Div extends Component {
   static propTypes = {
     css: PropTypes.string,
+    children: PropTypes.children
   };
 
   static defaultProps = {
@@ -32,10 +33,10 @@ class Div extends Component {
   }
 
   render() {
-    const { text } = this.props;
+    const { children } = this.props;
     const { Div } = this.state;
     return (
-      <Div>{text}</Div>
+      <Div>{children}</Div>
     );
   }
 }
