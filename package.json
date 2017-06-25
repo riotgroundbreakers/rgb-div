@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-react-app": "^3.0.0",
+    "styled-components": "^2.1.0",
+    "webpack": "^3.0.0"
+  },
+  "name": "rgb-div",
+  "main": "lib/rgb-div.js",
+  "scripts": {
+    "build": "NODE_ENV=production && webpack --config build-lib.js"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  }
+}
