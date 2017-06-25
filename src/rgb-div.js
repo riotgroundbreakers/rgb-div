@@ -41,8 +41,8 @@ class Div extends Component {
   }
 }
 
-Text.propTypes = {
+Div.propTypes = {
   text: PropTypes.string.isRequired
 };
 
-export default Text;
+export default Div;
